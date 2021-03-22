@@ -3,12 +3,13 @@ package dev.webfx.demo.charts;
 import javafx.application.Application;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
-import javafx.scene.Group;
 import javafx.scene.Scene;
 import javafx.scene.chart.CategoryAxis;
 import javafx.scene.chart.Chart;
 import javafx.scene.chart.NumberAxis;
 import javafx.scene.chart.XYChart;
+import javafx.scene.layout.FlowPane;
+import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
 
 import java.util.logging.Logger;
@@ -23,7 +24,7 @@ public final class ChartDemo extends Application {
     @Override
     public void start(Stage primaryStage) {
 
-        Group root = new Group();
+        Pane root = new FlowPane();
         Scene scene = new Scene(root);
         primaryStage.setScene(scene);
 
