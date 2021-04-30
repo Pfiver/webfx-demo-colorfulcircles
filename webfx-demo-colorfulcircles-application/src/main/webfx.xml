@@ -1,7 +1,0 @@
-<module>
-
-    <providers>
-        <provider spi="javafx.application.Application">dev.webfx.demo.charts.ChartDemo</provider>
-    </providers>
-
-</module>

@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><module rename-to="webfx_demo_colorfulcircles_application_gwt">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Managed by WebFX (DO NOT EDIT MANUALLY) --><module rename-to="webfx_demo_colorfulcircles_application_gwt">
 
     <!-- Configuring logging (must be in first position) -->
     <inherits name="com.google.gwt.logging.Logging"/>
@@ -6,7 +7,7 @@
     <set-property name="gwt.logging.logLevel" value="FINEST"/>
     <set-property name="gwt.logging.consoleHandler" value="ENABLED"/>
 
-    <!-- Listing transitive dependencies modules -->
+    <!-- Speeding up GWT compilation time in development mode -->
     <!--===========================< webfx-kit-javafxbase-emul >============================-->
     <!-- used by webfx-kit-javafxgraphics-emul (SOURCE) -->
     <!-- used by webfx-kit-javafxgraphics-peers (SOURCE) -->

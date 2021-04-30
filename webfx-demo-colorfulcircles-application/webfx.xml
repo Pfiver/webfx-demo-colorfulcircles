@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project>
+
+    <packages>
+        <source-packages/>
+    </packages>
+
+    <dependencies>
+        <source-modules/>
+    </dependencies>
+
+    <providers>
+        <javafx.application.Application>dev.webfx.demo.colorfulcircles.ColorfulCircles</javafx.application.Application>
+    </providers>
+</project>
